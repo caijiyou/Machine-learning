@@ -1,0 +1,16 @@
+使用numpy，matplotlib.pyplotm，seaborn三个库
+NumPy is the fundamental package for scientific computing in Python. It is a Python library that provides a multidimensional array object, various derived objects
+
+Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.
+
+定义一个类LinearRegression，类里定义两个方法fit（）和predict（）。
+
+先看fit（），这里调用了Numpy中的dot，shape，reshape，inv，sum函数，来估计参数beta_hats 
+做出预测和计算代价函数。
+
+predict（）使用另一组检测数据，来预测检测数据根据估计得到的参数beta_hats计算出来预测值。
+
+接着从sklearn中获取数据集合。
+
+初始化模型，将数据集放入模型中，显示真实值和样本内预测值
+
